@@ -3,23 +3,23 @@
  */
 export const LEVELS = {
     BEGINNER: {
-        ROWS: 10,
-        COLUMNS: 8,
-        BOMBS: 7,
+        COLUMNS : 8,
+        ROWS : 8,
+        BOMBS: 10,
     },
     EASY: {
-        ROWS: 14,
-        COLUMNS: 9,
-        BOMBS: 15,
+        COLUMNS: 10,
+        ROWS: 10,
+        BOMBS: 16,
     },
     MEDIUM: {
-        ROWS: 20,
         COLUMNS: 15,
-        BOMBS: 40,
+        ROWS: 15,
+        BOMBS: 27,
     },
     HARD: {
-        ROWS: 26,
-        COLUMNS: 19,
-        BOMBS: 99,
+        COLUMNS: 20,
+        ROWS: 20,
+        BOMBS: 44,
     },
 };

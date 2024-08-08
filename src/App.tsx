@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import Timer from './component/Timer';
+import Cell from './component/Cell';
 import './App.css'
+import Board from './component/Board';
 
 function App() {
   const [timer, setTimer] = useState({
@@ -26,6 +28,7 @@ function App() {
       <button onClick={handleStop}>Stop</button>
       <button onClick={handleReset}>Reset</button>
       <Timer {...timer}/>
+      <Board level='BEGINNER'/>
     </>
   )
 }
